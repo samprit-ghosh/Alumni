@@ -34,9 +34,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
     
-    
-    
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7055557915935481856" height="undefined" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
@@ -47,3 +44,15 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+        
+        
+        
+        
+        
+        
+        
+        
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7055557915935481856" height="undefined" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        
+        
+        
