@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+
+}
+
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50%;
+}
+
+
+
+	
+	
+	/* Set the width and height of the scrollbar */
+	::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        }
+        
+        /* Set the background color of the scrollbar track */
+        ::-webkit-scrollbar-track {
+        
+        background-color: #85008a;
+        }
+        
+        /* Set the color of the scrollbar thumb */
+        ::-webkit-scrollbar-thumb {
+        background-color: rgb(189, 9, 9);
+        }
+        
+        /* Set the color of the scrollbar thumb on hover */
+        
+    

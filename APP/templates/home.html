@@ -1,0 +1,45 @@
+
+
+{% extends 'base.html' %}
+
+
+
+
+
+
+
+
+
+{% block content %}
+    <div class="container">
+        <!-- <br><br><br> -->
+
+        <table class="table table-bordered table-hover" id="example" style="text-align: center; background-color: rgb(220, 204, 184);">
+            <thead class="table-success">
+                <tr>
+                    <th style="background-color: aqua;"><center>ID  </center> </th>
+                    <th style="background-color: aqua;"><center> Name        </center> </th>
+                    <th style="background-color: aqua;"><center> Email       </center> </th>
+                    <th style="background-color: aqua;"><center> Occputation </center> </th>
+                    <th style="background-color: aqua;"><center> Salary      </center> </th>
+                    <th style="background-color: aqua;"><center> Gender      </center> </th>
+                </tr>
+            </thead>
+            {% for employee in employees %}
+            <tr>
+                <td> {{ employee.id }}</td>
+                <td> {{ employee.name }}</td>
+                <td> {{ employee.email }}</td>
+                <td> {{ employee.occputation }}</td>
+                <td> {{ employee.salary }}</td>
+                <td> {{ employee.gender }}</td>
+
+            </tr>
+            {% endfor %}
+        </table>
+
+    </div>
+   
+<br><br><br>
+{% endblock content %}
+
