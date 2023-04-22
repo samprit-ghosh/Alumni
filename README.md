@@ -13,5 +13,8 @@ password :Samprit@2023 -->#ï¿½ ï¿½Aï¿½lï¿½uï¿½mï¿½nï¿½iï¿½-ï¿½Aï¿½sï¿½sï¿½oï¿½cï
 
 
 
-<video src="Untitled.mp4" autoplay width="300px" height="200px">
+<video controls autoplay>
+  <source src="untitled.mp4" type="video/mp4">
+
+</video>
   
